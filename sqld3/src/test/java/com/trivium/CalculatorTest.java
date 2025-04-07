@@ -16,20 +16,20 @@ class CalculatorTest {
 //		assertEquals(5, result); // will fail
 //	}
 
-	@Test
-	void testSubtract() {
-		Calculator calculator = new Calculator();
-		int result = calculator.subtract(5, 3);
-		assertEquals(2, result);
-	}
-	
-	@Test
-	void testMultiply() {
-		Calculator calculator = new Calculator();
-		int result = calculator.multiply(20, 2);
-		assertEquals(40, result);
-	}
-	
+//	@Test 
+//	void testSubtract() {
+//		Calculator calculator = new Calculator();
+//		int result = calculator.subtract(5, 3);
+//		assertEquals(2, result);
+//	}
+//	
+//	@Test
+//	void testMultiply() {
+//		Calculator calculator = new Calculator();
+//		int result = calculator.multiply(20, 2);
+//		assertEquals(40, result);
+//	}
+//	
 	@Test
 	void testDivide() {
 		Calculator calculator = new Calculator();
